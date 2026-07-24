@@ -107,18 +107,20 @@ card.dataset.page
 document.querySelectorAll(".backBtn")
 .forEach(btn=>{
 
-btn.addEventListener("click",()=>{
+    btn.addEventListener("click",()=>{
 
-document.querySelectorAll(".page")
-.forEach(page=>{
+        document.querySelectorAll(".page")
+        .forEach(page=>{
 
-page.style.display="none";
+            page.style.display="none";
 
-});
+        });
 
-home.style.display="flex";
+        home.style.display="flex";
 
-});
+        window.scrollTo(0,0);
+
+    });
 
 });
 
