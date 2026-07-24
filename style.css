@@ -822,3 +822,12 @@ box-shadow:
         drop-shadow(0 0 20px rgba(255,105,180,.5))
         drop-shadow(0 0 40px rgba(255,105,180,.3));
 }
+
+.page{
+    display:none;
+    min-height:100vh;
+}
+
+#home{
+    min-height:100vh;
+}
